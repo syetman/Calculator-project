@@ -39,4 +39,6 @@ body {
 .output {
     /* this span all available columns. So now the display box spans the width of the calculator */
     grid-column: 1 / -1;
+    /* make display black with 75% transparency */
+    background-color: rgba(0, 0, 0, .75);
 }
